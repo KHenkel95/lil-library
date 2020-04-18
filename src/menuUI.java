@@ -24,5 +24,35 @@ public class menuUI extends JFrame {
                 JOptionPane.showInputDialog("Enter the ISBN:");
             }
         });
+        viewCollectionButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                //TODO add the collection view here
+            }
+        });
+        searchCollectionAuthorButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                JOptionPane.showInputDialog("Enter the author name:");
+            }
+        });
+        searchCollectionTitleButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                JOptionPane.showInputDialog("Enter the title:");
+            }
+        });
+        searchCollectionGenreButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                JOptionPane.showInputDialog("Enter the genre:");
+            }
+        });
+        searchCollectionPublisherButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                JOptionPane.showInputDialog("Enter the publisher name:");
+            }
+        });
     }
 }
